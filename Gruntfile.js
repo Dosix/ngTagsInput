@@ -122,12 +122,12 @@ module.exports = function(grunt) {
         'replace:changelog',
         'shell:git',
         'copy:bower',
-        'update-bower-version',
-        'shell:git_bower',
-        'dgeni',
-        'copy:website',
-        'update-website-version',
-        'shell:git_website'
+        //'update-bower-version',
+        //'shell:git_bower',
+        'dgeni'
+       //'copy:website'
+        //'update-website-version',
+        //'shell:git_website'
     ]);
 
     grunt.registerTask('default', ['pack']);

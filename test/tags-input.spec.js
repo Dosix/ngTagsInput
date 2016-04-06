@@ -351,7 +351,7 @@ describe('tags-input directive', function() {
             $scope.$digest();
 
             // Assert
-            expect(element.find('div.tags')).toHaveClass('focused');
+            expect(element.find('div.listview')).toHaveClass('focused');
         });
 
         it('does not outline the tags div when the focused property is false', function() {
@@ -362,7 +362,7 @@ describe('tags-input directive', function() {
             $scope.$digest();
 
             // Assert
-            expect(element.find('div.tags')).not.toHaveClass('focused');
+            expect(element.find('div.listview')).not.toHaveClass('focused');
         });
 
         it('sets the focused property to true when the input field gains focus', function() {
