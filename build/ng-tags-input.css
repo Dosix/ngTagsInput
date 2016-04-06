@@ -16,7 +16,7 @@ tags-input .host:active {
   outline: none;
 }
 
-tags-input .tags-item {
+tags-input .tag-item {
   background: #eaeaea;
   border-color: #EBEBEB;
   color: #333;
