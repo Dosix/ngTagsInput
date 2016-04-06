@@ -8,6 +8,16 @@
 
 * **tagsInput:** Allow onTagAdding/onTagRemoving to return a promise ([4cc2f5c3](https://github.com/mbenford/ngTagsInput/commit/4cc2f5c3cf25c4276b82273c9d6e45b1d4553ec6), [#463](https://github.com/mbenford/ngTagsInput/issues/463))
 
+## 3.0.0 (2016-04-06)
+
+#### Bug Fixes
+
+* **template:** change class on input ([2eaf9029](https://github.com/mbenford/ngTagsInput/commit/2eaf902996026601e960676b552a29b26c069e35))
+
+#### Features
+
+* **tagsInput:** Allow onTagAdding/onTagRemoving to return a promise ([4cc2f5c3](https://github.com/mbenford/ngTagsInput/commit/4cc2f5c3cf25c4276b82273c9d6e45b1d4553ec6), [#463](https://github.com/mbenford/ngTagsInput/issues/463))
+
 ## 3.0.0 (2015-07-13)
 
 #### Bug Fixes
