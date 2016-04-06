@@ -1,5 +1,7 @@
 ### 3.0.1 (2016-04-06)
 
+### 3.0.1 (2016-04-06)
+
 #### Bug Fixes
 
 * **gitignore:** add repo build/ ([e55a0b2e](https://github.com/mbenford/ngTagsInput/commit/e55a0b2e292d81672677b0b147842a278bcc48c6))
