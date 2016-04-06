@@ -5,7 +5,7 @@
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-04-06 13:52:36 +0200
+ * Generated at 2016-04-06 13:56:23 +0200
  */
 (function() {
 'use strict';
@@ -1142,11 +1142,11 @@ tagsInput.factory('tiUtil', ["$timeout", "$q", function($timeout, $q) {
 /* HTML templates */
 tagsInput.run(["$templateCache", function($templateCache) {
     $templateCache.put('ngTagsInput/tags-input.html',
-    "<div class=\"host\" tabindex=\"-1\" ng-click=\"eventHandlers.host.click()\" ti-transclude-append><div class=\"listview\" ng-class=\"{focused: hasFocus}\"><ul class=\"tag-list lv-attrs\"><li class=\"tag-item\" ng-repeat=\"tag in tagList.items track by track(tag)\" ng-class=\"{ selected: tag == tagList.selected }\" ng-click=\"eventHandlers.tag.click(tag)\"><ti-tag-item data=\"::tag\"></ti-tag-item></li></ul><input class=\"form-control input-sm\" autocomplete=\"off\" ng-model=\"newTag.text\" ng-model-options=\"{getterSetter: true}\" ng-keydown=\"eventHandlers.input.keydown($event)\" ng-focus=\"eventHandlers.input.focus($event)\" ng-blur=\"eventHandlers.input.blur($event)\" ng-paste=\"eventHandlers.input.paste($event)\" data-ng-trim=\"false\" ng-class=\"{'invalid-tag': newTag.invalid}\" ng-disabled=\"disabled\" ti-bind-attrs=\"{type: options.type, placeholder: options.placeholder, tabindex: options.tabindex, spellcheck: options.spellcheck}\"></div></div>"
+    "<div class=\"host\" tabindex=\"-1\" ng-click=\"eventHandlers.host.click()\" ti-transclude-append><div class=\"listview\" ng-class=\"{focused: hasFocus}\"><ul class=\"tag-list lv-attrs\"><li class=\"tag-item\" style=\"background-color:#795548\" ng-repeat=\"tag in tagList.items track by track(tag)\" ng-class=\"{ selected: tag == tagList.selected }\" ng-click=\"eventHandlers.tag.click(tag)\"><ti-tag-item data=\"::tag\"></ti-tag-item></li></ul><input class=\"form-control input-sm\" autocomplete=\"off\" ng-model=\"newTag.text\" ng-model-options=\"{getterSetter: true}\" ng-keydown=\"eventHandlers.input.keydown($event)\" ng-focus=\"eventHandlers.input.focus($event)\" ng-blur=\"eventHandlers.input.blur($event)\" ng-paste=\"eventHandlers.input.paste($event)\" data-ng-trim=\"false\" ng-class=\"{'invalid-tag': newTag.invalid}\" ng-disabled=\"disabled\" ti-bind-attrs=\"{type: options.type, placeholder: options.placeholder, tabindex: options.tabindex, spellcheck: options.spellcheck}\"></div></div>"
   );
 
   $templateCache.put('ngTagsInput/tag-item.html',
-    "<span ng-bind=\"$getDisplayText()\" style=\"background-color:#795548; color:#fff; font-weight: bold\"></span> <a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\" style=\"cursor: pointer; color:#F44336\"></a>"
+    "<span ng-bind=\"$getDisplayText()\" style=\"color:#fff; font-weight: bold\"></span> <a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\" style=\"cursor: pointer; color:#F44336\"></a>"
   );
 
   $templateCache.put('ngTagsInput/auto-complete.html',
