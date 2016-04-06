@@ -123,7 +123,7 @@ module.exports = function(grunt) {
         'shell:git',
         'copy:bower',
         //'update-bower-version',
-        'shell:git_bower',
+        //'shell:git_bower',
         'dgeni',
         'copy:website',
         'update-website-version',
