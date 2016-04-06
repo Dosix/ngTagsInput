@@ -2,6 +2,12 @@
 
 #### Bug Fixes
 
+* **gitignore:** add repo build/ ([e55a0b2e](https://github.com/mbenford/ngTagsInput/commit/e55a0b2e292d81672677b0b147842a278bcc48c6))
+
+## 3.0.0 (2016-04-06)
+
+#### Bug Fixes
+
 * **template:** change class on input ([2eaf9029](https://github.com/mbenford/ngTagsInput/commit/2eaf902996026601e960676b552a29b26c069e35))
 
 #### Features
