@@ -8,6 +8,11 @@ tags-input {
   }
 
   .host {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100%;
+
     &:active {
       outline: none;
     }

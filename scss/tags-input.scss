@@ -1,0 +1,11 @@
+@import "mixins";
+@import "variables";
+
+tags-input {
+  .tags-item {
+    background: $tag-background-color;
+    border-color: $tag-border-color;
+    color: $tag-color;
+    margin: 4px 4px 0 0;
+  }
+}
