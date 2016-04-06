@@ -5,7 +5,7 @@
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-04-06 13:45:25 +0200
+ * Generated at 2016-04-06 13:52:36 +0200
  */
 (function() {
 'use strict';
@@ -1146,7 +1146,7 @@ tagsInput.run(["$templateCache", function($templateCache) {
   );
 
   $templateCache.put('ngTagsInput/tag-item.html',
-    "<span ng-bind=\"$getDisplayText()\"></span> <a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\"></a>"
+    "<span ng-bind=\"$getDisplayText()\" style=\"background-color:#795548; color:#fff; font-weight: bold\"></span> <a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\" style=\"cursor: pointer; color:#F44336\"></a>"
   );
 
   $templateCache.put('ngTagsInput/auto-complete.html',
