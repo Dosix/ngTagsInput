@@ -1,7 +1,8 @@
 <div class="host" tabindex="-1" ng-click="eventHandlers.host.click()" ti-transclude-append>
-    <div class="listview" ng-class="{focused: hasFocus}">
-        <ul class="lv-attrs">
-            <li ng-repeat="tag in tagList.items track by track(tag)"
+
+    <div class="tags listview" ng-class="{focused: hasFocus}">
+        <ul class="tag-list lv-attrs">
+            <li class="tag-item" ng-repeat="tag in tagList.items track by track(tag)"
                 ng-class="{ selected: tag == tagList.selected }"
                 ng-click="eventHandlers.tag.click(tag)">
                 <ti-tag-item data="::tag"></ti-tag-item>
