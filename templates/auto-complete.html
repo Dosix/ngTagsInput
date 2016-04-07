@@ -1,6 +1,6 @@
 <div class="autocomplete" ng-if="suggestionList.visible">
-  <ul class="suggestion-list">
-    <li class="suggestion-item"
+  <ul class="suggestion-list list-group">
+    <li class="suggestion-item list-group-item"
         ng-repeat="item in suggestionList.items track by track(item)"
         ng-class="{selected: item == suggestionList.selected}"
         ng-click="addSuggestionByIndex($index)"
